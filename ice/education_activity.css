@@ -7,7 +7,7 @@ body{
     background-color: rgb(68, 174, 240);
 }
 main{
-    max-width: 600px;
+    max-width: 475px;
     margin: 0 auto;
 }
 ol{
@@ -15,6 +15,7 @@ ol{
     color: black;
     font-size: 1.3em;
     font-family: var(--paragraph-font)
+
 }
 figcaption{
     display: block;
