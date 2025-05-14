@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+body{
+    text-align: center;
+    background-color: rgb(68, 174, 240);
+}
+main{
+    max-width: 600px;
+    margin: 0 auto;
+}
+ol{
+    text-align: left;
+    color: black;
+    font-size: 1.3em;
+    font-family: var(--paragraph-font)
+}
+figcaption{
+    display: block;
+    color: black;
+}
+h1{
+    font-size: 2.5em;
+    text-align: center;
+    color: white;
+}
+h1:hover{
+    color:black
+}
+h2{
+    font-size: 3em;
+    text-align: center;
+    color: white;
+}
+p{
+    color: white;
+}
+p.colored{
+    color: black;
+}
+:root{
+--headline-color-on-color: #white;
+--paragraph-background-color: #white;
+--paragraph-color-on-white: #black;
+--paragraph-font: oswald; 
+}
