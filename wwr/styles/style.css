@@ -1,0 +1,86 @@
+content{
+  max-width: 1600px;
+    margin: 0 auto;
+}
+#hero-msg h1{
+    text-align: center;
+}
+#hero-msg h4{
+    text-align: center;
+}
+nav a{
+    text-align: center;
+    color: rgb(210, 190, 190);
+    text-decoration: none;
+}
+.button-box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+#background {
+    height: 725px;
+}
+body{
+    background-color: rgb(184, 209, 191);
+}
+header{
+    background-color: rgb(58, 103, 59);
+}
+nav a:hover{
+    background-color: blue;
+    color: rgb(210, 190, 190);
+}
+.book, .join{
+    background-color: rgb(191, 211, 222);
+    color: rgb(4, 9, 96);
+    text-decoration: none;
+}
+.book:hover, .join:hover{
+    background-color: rgb(35, 34, 34);
+    color:white;
+}
+#background{
+    background-color: rgb(44, 33, 8);
+}
+.msg{
+    background-color: rgb(58, 103, 59);
+    ;
+}
+footer{
+    background-color: rgb(184, 209, 191);
+    color: black;
+}
+.home-title{
+    color: rgb(9, 8, 8);
+}
+h4{
+    color: rgb(0, 0, 0);
+}
+.msg h2{
+   color: rgb(210, 190, 190);
+}
+.msg p{
+    color: rgb(210, 190, 190);
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+footer a:hover{
+    color: white;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+.logo{
+    width: 80px;
+}
+
+
+
+
