@@ -163,36 +163,36 @@ p2{
     background-color: #162c74e6;
     box-shadow: 0 4px #444;
     transform: translateY(2px);
-}
-  .main-content {
+} 
+.main-content {
     padding: 40px;
     display: flex;
     flex-direction: column;
     gap: 40px;
-  }
-  
-  .grid-row {
+}
+
+.grid-row {
     display: grid;
     grid-template-columns: 1fr 2fr;
     align-items: center;
     gap: 30px;
-  }
-  
+}
+
   .character-img {
     width: 100%;
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-  }
+}
   
   .text-box h2 {
     margin-top: 0;
     color: yellow;
-  }
+}
   
   .text-box p {
     font-size: 1rem;
     color: yellow;
     line-height: 1.6;
-  }
+}
   
