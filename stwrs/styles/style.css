@@ -196,4 +196,53 @@ p2{
     color: yellow;
     line-height: 1.6;
 }
-  
+#planet-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.planet-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.planet-grid.endor {
+    grid-template-areas: "image text";
+}
+.planet-grid.mustafar {
+    grid-template-areas: "text image";
+}
+.planet-grid.mandalore {
+    grid-template-areas: "image text";
+}
+
+.planet-img {
+    grid-area: image;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.planet-text {
+    grid-area: text;
+    font-family: "Orbitron", sans-serif;
+    color: rgb(207, 198, 26);
+}
+
+.planet-text h2 {
+    font-family: "StarJedi", "IM Fell French Canon SC", sans-serif;
+    color: rgb(207, 198, 26);
+}
+
+.planet-text p {
+    line-height: 1.6;
+    font-size: 1rem;
+}
+
+ 
